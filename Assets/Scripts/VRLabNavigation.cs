@@ -14,7 +14,7 @@ public class VRLabNavigation : MonoBehaviour
 
     void Start()
     {
-        videoObject.SetActive(false);
+       // videoObject.SetActive(false);
         popUpObject.SetActive(false);
         miniMapObject.SetActive(false);
 
@@ -28,7 +28,7 @@ public class VRLabNavigation : MonoBehaviour
 
     public void ShowVideo()
     {
-        videoObject.SetActive(true);
+       // videoObject.SetActive(true);
         videoPlayer.Play();
     }
 
