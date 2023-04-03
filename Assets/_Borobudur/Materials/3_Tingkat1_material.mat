@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tingkat1_material
+  m_Name: 3_Tingkat1_material
   m_Shader: {fileID: 4800000, guid: 4df762cf40e81e84aa91a5255ba0efb6, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
