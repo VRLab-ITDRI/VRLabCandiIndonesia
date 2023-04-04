@@ -16,11 +16,18 @@ public class VRPuzzleQuest : MonoBehaviour
         if (collision.gameObject.tag == "TriggerPoint")
         {
             CheckIsEnter();
+            StartCoroutine(DelayBeforeDestroy());
         }
     }
 
     public void CheckIsEnter()
     {
         nextSceneBtn.SetActive(true);
+    }
+
+    IEnumerator DelayBeforeDestroy()
+    {
+        yield return new WaitForSeconds(0.5f);
+        Destroy(gameObject);
     }
 }
