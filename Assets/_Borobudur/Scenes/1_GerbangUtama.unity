@@ -4274,6 +4274,7 @@ GameObject:
   - component: {fileID: 4015128327888720701}
   - component: {fileID: 4015128327888720697}
   - component: {fileID: 4015128327888720703}
+  - component: {fileID: 4015128327888720704}
   m_Layer: 5
   m_Name: UI Navigation
   m_TagString: Untagged
@@ -4296,6 +4297,19 @@ MonoBehaviour:
   videoObject: {fileID: 1141003302}
   popUpObject: {fileID: 899338608}
   miniMapObject: {fileID: 771257952}
+  videoPlayer: {fileID: 1435783084}
+--- !u!114 &4015128327888720704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4015128327888720702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff63775ad1d28b84aba4d87f61c97f78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   videoPlayButton: {fileID: 245189333}
   videoPlayer: {fileID: 1435783084}
 --- !u!222 &7481900536560148392
