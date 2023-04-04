@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - TriggerPoint
+  - Relic1
+  - Relic2
+  - Relic3
+  - Relic4
   layers:
   - Default
   - TransparentFX
