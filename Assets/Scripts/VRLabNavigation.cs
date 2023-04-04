@@ -9,6 +9,7 @@ public class VRLabNavigation : MonoBehaviour
     public GameObject videoObject;
     public GameObject popUpObject;
     public GameObject miniMapObject;
+    public GameObject videoPlayButton;
 
     public VideoPlayer videoPlayer;
 
@@ -56,11 +57,11 @@ public class VRLabNavigation : MonoBehaviour
     {
         if (videoPlayer.isPlaying)
         {
-            videoObject.SetActive(false);
+            videoPlayButton.SetActive(false);
         }
         else
         {
-            videoObject.SetActive(true);
+            videoPlayButton.SetActive(true);
         }
     }
 }

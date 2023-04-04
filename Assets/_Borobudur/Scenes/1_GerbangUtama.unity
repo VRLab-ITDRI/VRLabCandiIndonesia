@@ -4160,6 +4160,7 @@ MonoBehaviour:
   videoObject: {fileID: 1141003302}
   popUpObject: {fileID: 899338608}
   miniMapObject: {fileID: 771257952}
+  videoPlayButton: {fileID: 245189333}
   videoPlayer: {fileID: 1435783084}
 --- !u!222 &7481900536560148392
 CanvasRenderer:
