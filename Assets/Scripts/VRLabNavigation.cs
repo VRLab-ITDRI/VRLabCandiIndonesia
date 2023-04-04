@@ -21,6 +21,11 @@ public class VRLabNavigation : MonoBehaviour
         videoPlayer.Stop();
     }
 
+    private void Update()
+    {
+        CheckVideoIsPlay();
+    }
+
     public void NextScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
@@ -45,5 +50,17 @@ public class VRLabNavigation : MonoBehaviour
     public void ExitTour()
     {
         Application.Quit();
+    }
+
+    internal void CheckVideoIsPlay()
+    {
+        if (videoPlayer.isPlaying)
+        {
+            videoObject.SetActive(false);
+        }
+        else
+        {
+            videoObject.SetActive(true);
+        }
     }
 }

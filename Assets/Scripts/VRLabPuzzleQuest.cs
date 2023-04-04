@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VRPuzzleQuest : MonoBehaviour
+public class VRLabPuzzleQuest : MonoBehaviour
 {
     public GameObject nextSceneBtn;
 
