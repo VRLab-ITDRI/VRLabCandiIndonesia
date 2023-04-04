@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VRNotDestroy : MonoBehaviour
+public class VRLabNotDestroy : MonoBehaviour
 {
-    private static VRNotDestroy instance = null;
+    private static VRLabNotDestroy instance = null;
 
     private void Awake()
     {
