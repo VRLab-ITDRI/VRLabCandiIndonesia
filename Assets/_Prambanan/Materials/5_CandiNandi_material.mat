@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CandiBrahma_material
+  m_Name: 5_CandiNandi_material
   m_Shader: {fileID: 4800000, guid: 4df762cf40e81e84aa91a5255ba0efb6, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -45,7 +45,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4464a888d24720743a23b15e803bc4f2, type: 3}
+        m_Texture: {fileID: 2800000, guid: d4416e7dc8577be45aac4caba70c5104, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
