@@ -652,16 +652,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Setelah masa kejayaannya, candi terlantar dan ditutupi abu vulkanik selama
-
-    berabad-abad
-    hingga ditemukan kembali oleh Sir Thomas Stamford Raffles pada 1814.
-
-    Candi
-    Borobudur telah menjalani beberapa restorasi dan diakui sebagai situs warisan
-
-    dunia
-    oleh UNESCO pada 1991.'
+  m_text: Candi Garuda berada di utara Candi Nandi atau berhadapan dengan Candi Wisnu.
+    Burung Garuda merupakan tunggangan dari Dewa Wisnu. Hiasan pada tangga dan kaki
+    candi ini sama dengan yang ada pada Candi Nandi. Meskipun dinamakan Candi Garuda,
+    namun tidak ditemukan arca berbentuk burung garuda di dalam candi ini. Di lantai
+    ruangan terdapat arca yang berukuran lebih kecil daripada yang ada di Candi Syiwa.
+    Arca ini ditemukan tertanam di dalam candi yang sesungguhnya tempatnya bukan
+    di candi tersebut.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -688,15 +685,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 14
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 16
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3621,7 +3618,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ba22dbe7f8f0e604da2f86c406f5026a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4402a103ad3cc294ca6c78d0b65d7d0c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

@@ -652,16 +652,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Setelah masa kejayaannya, candi terlantar dan ditutupi abu vulkanik selama
-
-    berabad-abad
-    hingga ditemukan kembali oleh Sir Thomas Stamford Raffles pada 1814.
-
-    Candi
-    Borobudur telah menjalani beberapa restorasi dan diakui sebagai situs warisan
-
-    dunia
-    oleh UNESCO pada 1991.'
+  m_text: "Pada pelataran dalam, terdapat dua candi yang membujur dari utara ke selatan,
+    sedangkan bagian barat terdapat 3 candi yang menghadap ke timur. Candi yang terletak
+    di utara bernama Candi Wisnu, yang di tengah Candi Syiwa dan yang di selatan
+    Candi Brahma. Pada bagian timur juga terdapat 3 buah candi yang menghadap barat
+    yang diberi nama Candi Wahana (Wahana = kendaraan). Candi Wisnu berhadapan dengan
+    Candi Garuda, Candi Siwa berhadapan dengan Candi Nandi (lembu) sedangkan Candi
+    Brahma berhadapan dengan Candi Angsa. Candi Wisnu, Brahma, Angsa, Garuda dan
+    Nandi memiliki bentuk serta ukuran yang sama. Pada bagian ujung utara dan selatan
+    lorong terdapat candi \u2013 candi kecil yang berhadap \u2013 hadapan yang disebut
+    Candi Apit."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -688,15 +688,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 14
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 16
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
