@@ -232,7 +232,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 428158213}
   m_LocalRotation: {x: -0, y: 0.0006081761, z: -0, w: 0.9999998}
-  m_LocalPosition: {x: 0, y: 0, z: -13}
+  m_LocalPosition: {x: 0, y: 0, z: -2.8}
   m_LocalScale: {x: 1.0201515, y: 0.9986572, z: 1.2084363}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -725,6 +725,7 @@ GameObject:
   - component: {fileID: 955525354}
   - component: {fileID: 955525353}
   - component: {fileID: 955525352}
+  - component: {fileID: 955525361}
   m_Layer: 5
   m_Name: BlackInfo
   m_TagString: Untagged
@@ -739,18 +740,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 955525350}
-  m_LocalRotation: {x: -0, y: 0.103633754, z: -0, w: 0.99461555}
-  m_LocalPosition: {x: 0, y: 0, z: -156}
-  m_LocalScale: {x: 2.187093, y: 1.9506855, z: 1.0794997}
+  m_LocalRotation: {x: -0, y: 0.05961899, z: -0, w: 0.9982212}
+  m_LocalPosition: {x: 0, y: 0, z: -162.89}
+  m_LocalScale: {x: 0.003954416, y: 0.0035269747, z: 0.0019518106}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 428158214}
   m_Father: {fileID: 1196139486538719272}
   m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 11.897, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 6.836, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 22, y: -37}
+  m_AnchoredPosition: {x: -123.43066, y: -61}
   m_SizeDelta: {x: 174.4, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!328 &955525352
@@ -946,6 +947,27 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!95 &955525361
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955525350}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ac387cefccdc18d4282d50ee960a3cb2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1078199345
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,6 +1217,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 955525361}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Borbudur
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1218560049
@@ -1818,8 +1852,48 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1196139486954672399, guid: b366584baa1e648498fe8cee8e242c75,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196139486954672399, guid: b366584baa1e648498fe8cee8e242c75,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196139486954672399, guid: b366584baa1e648498fe8cee8e242c75,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 955525361}
+    - target: {fileID: 1196139486954672399, guid: b366584baa1e648498fe8cee8e242c75,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196139486954672399, guid: b366584baa1e648498fe8cee8e242c75,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196139486954672399, guid: b366584baa1e648498fe8cee8e242c75,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.Animator, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196139486954672399, guid: b366584baa1e648498fe8cee8e242c75,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: 4_Tingkat2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196139486954672399, guid: b366584baa1e648498fe8cee8e242c75,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Borbudur
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196139486954672399, guid: b366584baa1e648498fe8cee8e242c75,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1196139486960044214, guid: b366584baa1e648498fe8cee8e242c75,
         type: 3}
