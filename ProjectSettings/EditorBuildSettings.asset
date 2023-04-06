@@ -8,25 +8,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/_MainMenu.unity
     guid: 813412cb6a482e54f8af825f8e7deb76
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Borobudur/Scenes/1_GerbangUtama.unity
     guid: 70f7cb5dd08ffc349bc6128bd5643bf5
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Borobudur/Scenes/2_AreaTerbuka.unity
     guid: 8e66d397dfd6eb749b2767acda318ea2
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Borobudur/Scenes/3_Tingkat1.unity
     guid: bf501acfb0016334db5655dfb0b91f4d
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Borobudur/Scenes/4_Tingkat2.unity
     guid: 07f13aae45cac8a429b77b7aa03ef70a
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Borobudur/Scenes/5_Tingkat3.unity
     guid: 8bd295728a54bf74e9c7dab23aa4d98b
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Borobudur/Scenes/6_Tingkat4.unity
     guid: 63fa0f1b27959da4e8e0da02c173e31b
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Borobudur/Scenes/7_LastSpot.unity
     guid: c4e48a28a02d3064cbde887d7e518af8
   - enabled: 1
