@@ -468,7 +468,7 @@ PrefabInstance:
     - target: {fileID: 1196139487769629778, guid: b366584baa1e648498fe8cee8e242c75,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: _MainMenu
+      value: Map
       objectReference: {fileID: 0}
     - target: {fileID: 1196139488282141617, guid: b366584baa1e648498fe8cee8e242c75,
         type: 3}
