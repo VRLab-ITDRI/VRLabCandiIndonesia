@@ -7,6 +7,7 @@ public class VRLabVideoPopUp : MonoBehaviour
 {
     public GameObject videoPlayButton;
     public VideoPlayer videoPlayer;
+    public AudioSource AudioBGM;
 
     void Update()
     {
@@ -18,10 +19,12 @@ public class VRLabVideoPopUp : MonoBehaviour
         if (videoPlayer.isPlaying)
         {
             videoPlayButton.SetActive(false);
+            AudioBGM.Pause();
         }
         else
         {
             videoPlayButton.SetActive(true);
+            AudioBGM.Play();
         }
     }
 }
