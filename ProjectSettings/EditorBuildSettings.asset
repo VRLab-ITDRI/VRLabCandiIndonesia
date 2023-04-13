@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/_MainMenu.unity
     guid: 813412cb6a482e54f8af825f8e7deb76
   - enabled: 1
+    path: Assets/_Map/Scenes/Map.unity
+    guid: 8991bbae36778394982118c6daab7327
+  - enabled: 1
     path: Assets/_Borobudur/Scenes/1_GerbangUtama.unity
     guid: 70f7cb5dd08ffc349bc6128bd5643bf5
   - enabled: 1
