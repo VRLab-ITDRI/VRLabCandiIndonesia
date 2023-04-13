@@ -19,12 +19,12 @@ public class VRLabVideoPopUp : MonoBehaviour
         if (videoPlayer.isPlaying)
         {
             videoPlayButton.SetActive(false);
-            AudioBGM.Pause();
+            //AudioBGM.Pause();
         }
         else
         {
             videoPlayButton.SetActive(true);
-            AudioBGM.Play();
+            //AudioBGM.Play();
         }
     }
 }
