@@ -469,7 +469,7 @@ PrefabInstance:
     - target: {fileID: 4711158514834466058, guid: 0ea27e183f24bb84cb193f6e2fcffbf3,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5344283030161964976, guid: 0ea27e183f24bb84cb193f6e2fcffbf3,
         type: 3}
@@ -539,6 +539,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UmbulAds
+      objectReference: {fileID: 0}
+    - target: {fileID: 6651392749356206677, guid: 453600b3b3389234f81f349bb67c59e7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6651392749356206678, guid: 453600b3b3389234f81f349bb67c59e7,
         type: 3}
