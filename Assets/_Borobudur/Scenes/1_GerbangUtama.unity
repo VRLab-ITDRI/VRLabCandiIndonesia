@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028326, g: 0.22571333, b: 0.30692202, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1950,10 +1950,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: UmbulAds
       objectReference: {fileID: 0}
+    - target: {fileID: 6651392749356206677, guid: 453600b3b3389234f81f349bb67c59e7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6651392749356206678, guid: 453600b3b3389234f81f349bb67c59e7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6651392749356206678, guid: 453600b3b3389234f81f349bb67c59e7,
         type: 3}
