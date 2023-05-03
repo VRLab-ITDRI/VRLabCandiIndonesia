@@ -413,8 +413,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.02391423, y: -0.97545743, z: 0.17146352, w: 0.13605553}
-  m_LocalPosition: {x: 17.584229, y: -2.376751, z: 42.99817}
+  m_LocalRotation: {x: -0.053260904, y: 0.9464135, z: -0.2121332, w: -0.23762225}
+  m_LocalPosition: {x: 24.064907, y: 1.7979641, z: 31.046925}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -469,7 +469,7 @@ PrefabInstance:
     - target: {fileID: 4711158514834466058, guid: 0ea27e183f24bb84cb193f6e2fcffbf3,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5344283030161964976, guid: 0ea27e183f24bb84cb193f6e2fcffbf3,
         type: 3}
@@ -539,6 +539,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UmbulAds
+      objectReference: {fileID: 0}
+    - target: {fileID: 6651392749356206677, guid: 453600b3b3389234f81f349bb67c59e7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6651392749356206678, guid: 453600b3b3389234f81f349bb67c59e7,
         type: 3}
